@@ -12,7 +12,7 @@
 
     <!--CONTAINER-->
     <div class="fluid-container px-0 py-5 bg-light-text-center"
-         style="background-image: url('img/pizza-img-01.jpg');
+         style="background-image: url('../img/pizza-img-01.jpg');
                 height: 90vh;">
         <h2 class="h1 text-center bg-light bg-opacity-50"
             style="margin-top: 160px;
@@ -25,6 +25,10 @@
 
     <!--Scripts-->
     <jsp:include page="partials/scripts.jsp"></jsp:include>
+    <!--MOD SCRIPTS-->
+    <script src="../js/actions.js"></script>
+    <script src="/js/actions.js"></script>
+    <script src="js/actions.js"></script>
 
 </body>
 </html>

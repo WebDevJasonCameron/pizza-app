@@ -12,7 +12,7 @@
 
     <!--BUILD FORM-->
     <!--CONTAINER-->
-    <div class="fluid-container px-0 py-5 my-4 bg-light-text-center" style="background-image: url('img/pizza-img-01.jpg')">
+    <div class="fluid-container px-0 py-5 my-4 bg-light-text-center" style="background-image: url('../img/pizza-img-01.jpg')">
         <h2 class="h1 text-center bg-light bg-opacity-50">Have It Your Way!</h2>
     </div>
 

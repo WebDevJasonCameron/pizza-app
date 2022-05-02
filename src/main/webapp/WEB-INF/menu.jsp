@@ -8,6 +8,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %><html>
 <head>
+
     <jsp:include page="partials/head.jsp">
         <jsp:param name="title" value="Pizza Menu" />
     </jsp:include>
@@ -18,7 +19,7 @@
     <jsp:include page="partials/navbar.jsp"></jsp:include>
 
     <!--CONTAINER-->
-    <div class="fluid-container px-0 py-5 my-4 bg-light-text-center" style="background-image: url('img/pizza-img-01.jpg')">
+    <div class="fluid-container px-0 py-5 my-4 bg-light-text-center" style="background-image: url('../img/pizza-img-01.jpg')">
         <h2 class="h1 text-center bg-light bg-opacity-50">Menu</h2>
     </div>
 

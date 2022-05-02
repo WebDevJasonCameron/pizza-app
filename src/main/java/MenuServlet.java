@@ -17,6 +17,6 @@ public class MenuServlet extends HttpServlet {
         req.setAttribute("menuItems", menuItems);
 
 
-        req.getRequestDispatcher("/menu.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/menu.jsp").forward(req, resp);
     }
 }

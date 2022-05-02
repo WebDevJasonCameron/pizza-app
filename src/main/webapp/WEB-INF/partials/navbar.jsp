@@ -16,7 +16,11 @@
             </li>
         </ul>
         <form class="form-check-inline my-2-my lg-0 mr-auto">
-            <button class="btn btn-outline-secondary my-2 my-lg-0" type="submit"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;Sign Up</button>
+            <button class="btn btn-outline-secondary my-2 my-lg-0"
+                    id="signBtn"
+                    type="submit">
+                        <i class="fa-solid fa-user"></i>&nbsp;&nbsp;Login
+            </button>
         </form>
     </nav>
 </div>
