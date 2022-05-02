@@ -23,25 +23,28 @@
     </div>
 
     <!--MENU-->
-<%--    <div class="container">--%>
-<%--        <c:forEach var="menuItem" items="menuList">--%>
-<%--            <div class="card w-25 m-3">--%>
-<%--                <div class="card-header">--%>
-<%--                    ${menuItem.name}--%>
-<%--                </div>--%>
-<%--                <div class="card-body">--%>
-<%--                    &lt;%&ndash;COME BACK TO THIS&ndash;%&gt;--%>
-<%--                </div>--%>
-<%--            </div>--%>
-
-
-
-<%--        </c:forEach>--%>
-
-
-
-<%--    </div>--%>
-
+    <div class="container d-flex flex-wrap justify-content-center">
+        <c:forEach var="menuItem" items="${menuItems}">
+            <div class="card m-2" style="width: 350px">
+                <img src="${menuItem.imgURL}"
+                     alt="Picture of ${menuItem.name} pizza"
+                     class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title">
+                        ${menuItem.name}
+                    </div>
+                    <p>
+                        ${menuItem.description}
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary btn-block w-100">
+                        $ ${menuItem.price}
+                    </button>
+                </div>
+            </div>
+        </c:forEach>
+    </div>
 
 
     <!--SCRIPTS-->
