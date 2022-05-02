@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="/index" class="navbar-brand text-secondary">Pizza World</a>
+        <a href="/" class="navbar-brand text-secondary">Pizza World</a>
         <ul class="navbar-nav me-auto">
             <li class="nav-item">
                 <a class="nav-link bg-dark bg-opacity-10 rounded-1" href="/pizza-order-form"> Build Your Own Pizza </a>

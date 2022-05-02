@@ -2,17 +2,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <jsp:include page="partials/head.jsp">
-        <jsp:param name="title" value="Pizza Order Form" />
+    <jsp:include page="WEB-INF/partials/head.jsp">
+        <jsp:param name="title" value="Login" />
     </jsp:include>
 </head>
 <body>
     <!-- NAVBAR -->
-    <jsp:include page="partials/navbar.jsp"></jsp:include>
+    <jsp:include page="WEB-INF/partials/navbar.jsp"></jsp:include>
 
     <!--CONTAINER-->
     <div class="fluid-container px-0 py-5 bg-light-text-center"
-         style="background-image: url('../img/pizza-img-01.jpg');
+         style="background-image: url('img/pizza-img-01.jpg');
                 height: 90vh;">
         <h2 class="h1 text-center bg-light bg-opacity-50"
             style="margin-top: 160px;
@@ -21,14 +21,11 @@
         </h2>
     </div>
 
-    <jsp:include page="partials/footer.jsp"></jsp:include>
+    <jsp:include page="WEB-INF/partials/footer.jsp"></jsp:include>
 
     <!--Scripts-->
-    <jsp:include page="partials/scripts.jsp"></jsp:include>
-    <!--MOD SCRIPTS-->
-    <script src="../js/actions.js"></script>
-    <script src="/js/actions.js"></script>
-    <script src="js/actions.js"></script>
+    <jsp:include page="WEB-INF/partials/scripts.jsp"></jsp:include>
+
 
 </body>
 </html>
