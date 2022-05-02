@@ -3,7 +3,7 @@
 <html>
 <head>
     <jsp:include page="WEB-INF/partials/head.jsp">
-        <jsp:param name="title" value="Login" />
+        <jsp:param name="title" value="Pizza Order Form" />
     </jsp:include>
 </head>
 <body>
