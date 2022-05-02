@@ -13,7 +13,7 @@
         <jsp:param name="title" value="Pizza Menu" />
     </jsp:include>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- NAVBAR -->
     <jsp:include page="partials/navbar.jsp"></jsp:include>
@@ -24,7 +24,7 @@
     </div>
 
     <!--MENU-->
-    <div class="container d-flex flex-wrap justify-content-center">
+    <div class="container d-flex flex-wrap justify-content-center mb-5">
         <c:forEach var="menuItem" items="${menuItems}">
             <div class="card m-2" style="width: 350px">
                 <img src="${menuItem.imgURL}"
@@ -47,6 +47,9 @@
         </c:forEach>
     </div>
 
+
+    <!--FOOTER-->
+    <jsp:include page="partials/footer.jsp"></jsp:include>
 
     <!--SCRIPTS-->
     <jsp:include page="partials/scripts.jsp"></jsp:include>

@@ -6,14 +6,14 @@
         <jsp:param name="title" value="Pizza Order Form" />
     </jsp:include>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- NAVBAR -->
     <jsp:include page="WEB-INF/partials/navbar.jsp"></jsp:include>
 
     <!--CONTAINER-->
     <div class="fluid-container px-0 py-5 bg-light-text-center"
          style="background-image: url('img/pizza-img-01.jpg');
-                height: 90vh;">
+                height: 85vh;">
         <h2 class="h1 text-center bg-light bg-opacity-50"
             style="margin-top: 160px;
                    padding: 50px">

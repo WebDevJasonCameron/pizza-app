@@ -12,7 +12,7 @@
         <jsp:param name="title" value="Login" />
     </jsp:include>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- NAVBAR -->
     <jsp:include page="partials/navbar.jsp"></jsp:include>
 
@@ -25,7 +25,7 @@
     <div class="container d-flex justify-content-center">
         <div class="card w-50">
             <div class="card-header">
-                <p class="d4">Sign In For Savings!!!</p>
+                <p class="display-4 text-center">Sign In For Savings!!!</p>
             </div>
             <form action="/profile" method="post">
                 <div class="card-body">

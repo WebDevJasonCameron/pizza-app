@@ -1,4 +1,4 @@
-<footer id="main-footer" class="bg-danger text-light">
+<footer id="main-footer" class="bg-danger text-light mt-auto">
     <div class="container">
         <div class="row">
             <div class="col text-center py-2 d-flex justify-content-around">
