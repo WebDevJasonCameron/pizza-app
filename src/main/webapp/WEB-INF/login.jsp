@@ -31,11 +31,11 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="username" class="form-control">Username</label>
-                        <input type="text" class="form-control" id="username">
+                        <input type="text" class="form-control mb-3" id="username">
                     </div>
                     <div class="form-group">
                         <label for="password" class="form-control">Password</label>
-                        <input type="password" class="form-control" id="password">
+                        <input type="password" class="form-control mb-3" id="password">
                     </div>
                 </div>
                 <div class="card-footer">
