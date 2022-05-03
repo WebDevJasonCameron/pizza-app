@@ -27,15 +27,21 @@
             <div class="card-header">
                 <p class="display-4 text-center">Sign In For Savings!!!</p>
             </div>
-            <form action="/profile" method="post">
+            <form action="/login" method="post">
                 <div class="card-body">
                     <div class="form-group">
                         <label for="username" class="form-control">Username</label>
-                        <input type="text" class="form-control mb-3" id="username">
+                        <input type="text"
+                               class="form-control mb-3"
+                               name="username"
+                               id="username">
                     </div>
                     <div class="form-group">
                         <label for="password" class="form-control">Password</label>
-                        <input type="password" class="form-control mb-3" id="password">
+                        <input type="password"
+                               class="form-control mb-3"
+                               name="password"
+                               id="password">
                     </div>
                 </div>
                 <div class="card-footer">

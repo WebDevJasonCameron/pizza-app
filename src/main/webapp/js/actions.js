@@ -1,13 +1,13 @@
 
 // NAV
-$('#logInBtn').on("click", (e) => {
+$('#loginBtn').on("click", (e) => {
     e.preventDefault();
-    window.location.replace("/login")
+    window.location.replace("/login");
 })
 
-$('#signOutBtn').on("click", (e) => {
+$('#logoutBtn').on("click", (e) => {
     e.preventDefault();
-    window.location.replace("/signOut")
+    window.location.replace("/logout");
 })
 
 // FOOT

@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="/" class="navbar-brand text-secondary">Pizza World</a>
@@ -15,21 +17,23 @@
                 <button class="form-control mr-sm-2 text-nowrap" type="search" >Search stores near you!</button>
             </li>
         </ul>
-        <form class="form-check-inline my-2-my lg-0 mr-auto">
-            <c:if test="${sessionScope.user == null}">
+        <c:if test="${sessionScope.user == null}">
+
+                    <button class="btn btn-outline-secondary my-2 my-lg-0"
+                            id="loginBtn"
+                            type="submit">
+                                <i class="fa-solid fa-user"></i>&nbsp;&nbsp;Login
+                    </button>
+
+        </c:if>
+        <c:if test="${sessionScope.user != null}">
+
                 <button class="btn btn-outline-secondary my-2 my-lg-0"
-                        id="logInBtn"
-                        type="submit">
-                            <i class="fa-solid fa-user"></i>&nbsp;&nbsp;Login
-                </button>
-            </c:if>
-            <c:if test="${sessionScope.user != null}">
-                <button class="btn btn-outline-secondary my-2 my-lg-0"
-                        id="signOutBtn"
+                        id="logoutBtn"
                         type="submit">
                     <i class="fa-solid fa-circle-xmark"></i>&nbsp;&nbsp;Sign Out
                 </button>
-            </c:if>
-        </form>
+
+        </c:if>
     </nav>
 </div>
