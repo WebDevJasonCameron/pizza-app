@@ -5,15 +5,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "PizzaOrderFormServlet", urlPatterns = "/pizza-order-form")
-public class PizzaOrderFormServlet extends HttpServlet {
+@WebServlet(name = "CheckoutServlet", urlPatterns = "/checkout")
+public class CheckoutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("WEB-INF/pizza-order-form.jsp").forward(req, resp);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        req.getRequestDispatcher("/checkout.jsp").forward(req, resp);
     }
 }

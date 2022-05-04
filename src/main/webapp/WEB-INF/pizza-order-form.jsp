@@ -30,7 +30,7 @@
     </ul>
 
     <!--FORM-->
-    <form method="post">
+    <form action="/checkout" method="post">
         <!--TAB PANES-->
         <div class="tab-content">
             <!--TAB 1-->
@@ -83,7 +83,12 @@
                                 <!--Card Footer-->
                                 <footer class="card w-auto mt-3">
                                     <div class="card-header bg-light p-3">
-                                        <button class="btn btn-primary float-end" data-target="#cheeseAndSauce" type="submit">Next Step&nbsp;&nbsp;<i class="fa-solid fa-angle-right"></i></button>
+                                        <button
+                                                class="btn btn-primary float-end"
+                                                id="nextFormBtn01">
+                                                    Next Step&nbsp;&nbsp;
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                        </button>
                                     </div>
                                 </footer>
                             </div>
@@ -153,8 +158,18 @@
                                 <!--Card Footer-->
                                 <footer class="card w-auto mt-3">
                                     <div class="card-header bg-light p-3">
-                                        <button class="btn btn-primary float-end rounded-0 rounded-right" type="submit">Next Step&nbsp;&nbsp;<i class="fa-solid fa-angle-right"></i></button>
-                                        <button class="btn btn-primary float-end rounded-0 rounded-left" type="submit"><i class="fa-solid fa-angle-left"></i>&nbsp;&nbsp;Previous Step</button>
+                                        <button
+                                                class="btn btn-primary float-end rounded-0 rounded-right"
+                                                id="nextFormBtn02">
+                                                    Next Step&nbsp;&nbsp;
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                        </button>
+                                        <button
+                                                class="btn btn-primary float-end rounded-0 rounded-left"
+                                                id="previousFormBtn01">
+                                                    <i class="fa-solid fa-angle-left"></i>&nbsp;&nbsp;
+                                                    Previous Step
+                                        </button>
                                     </div>
                                 </footer>
                             </div>
@@ -239,8 +254,11 @@
                                 <!--Card Footer-->
                                 <footer class="card w-auto mt-3">
                                     <div class="card-header bg-light p-3">
-                                        <button class="btn btn-primary float-end rounded-0 rounded-left" type="submit">
-                                            Check out&nbsp;&nbsp;<i class="fa-solid fa-cart-shopping"></i>
+                                        <button
+                                                class="btn btn-primary float-end rounded-0 rounded-left"
+                                                type="submit">
+                                                    Check out&nbsp;&nbsp;
+                                                    <i class="fa-solid fa-cart-shopping"></i>
                                         </button>
                                     </div>
                                 </footer>

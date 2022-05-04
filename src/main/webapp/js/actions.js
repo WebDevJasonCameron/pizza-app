@@ -10,5 +10,13 @@ $('#logoutBtn').on("click", (e) => {
     window.location.replace("/logout");
 })
 
+// FORM
+$('#nextFormBtn01').on("click", (e) => {
+    e.preventDefault();
+    console.log("Click")
+})
+
+
+
 // FOOT
 $('#year').text(new Date().getFullYear());
