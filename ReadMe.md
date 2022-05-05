@@ -6,7 +6,6 @@ The purpose of this project is to combine lessons on Maven Web application workf
 ## Goals
 Every project should have measurable, achievable goals.  As such, here are mine.
 
-
 - [X] Build a Menu page using lessons from our Ad Lister Ls/Ex
 - [X]  Build a Login) page 
 - [] Integrate Pizza World Bootstrap order form into a Maven Web application template *as the Order Online Page
@@ -14,3 +13,34 @@ Every project should have measurable, achievable goals.  As such, here are mine.
 - [] Build a Store locator based zip code
 - [] Build your own pizza orders will be sent to a fake Order Payment (checkout) Page
 - [] Selections from the Menu will be sent to a fake Order Payment (checkout) Page
+
+## Action Plan
+### DB Inclusion
+1. Member DB
+   - user_id [pk]
+   - username     
+   - password
+   - email
+   - address
+   - phone
+2. Order DB 
+    - order_num [pk]
+    - user_id [fk] --> Can be null
+    - order_date
+    - mp_orders
+    - bop_orders
+3. Menu Pizzas (MP) DB 
+    - mp_id [pk]
+    - name
+    - price
+    - description
+    - img_url
+4. Build Own Pizzas (BOP) DB
+    - order_num [fk]
+    - pizza_size
+    - crust_type
+    - cheese_amount
+    - sauce_type
+    - sauce_amount
+    - toppings_meat
+    - toppings_veg
