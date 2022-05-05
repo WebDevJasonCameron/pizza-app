@@ -11,24 +11,35 @@ $('#logoutBtn').on("click", (e) => {
 })
 
 // FORM
+// $('#nextFormBtn01').on("click", (e) => {
+//     e.preventDefault();
+//     document.location.replace("#cheeseAndSauce")
+//     console.log("Click")
+// })
+
 $('#nextFormBtn01').on("click", (e) => {
     e.preventDefault();
-    console.log("Click")
-})
+    $('#home-tab').removeClass('active');
+    $('#profile-tab').addClass('active');
+    $('#sizeAndCrust').removeClass('active');
+    $('#cheeseAndSauce').addClass('active');
+});
+
+
 
 $('#nextFormBtn02').on("click", (e) => {
     e.preventDefault();
-    console.log("Click")
+    console.log("next btn 02")
 })
 
 $('#previousFormBtn01').on("click", (e) => {
     e.preventDefault();
-    console.log("Click")
+    console.log("pre btn 01")
 })
 
 $('#previousFormBtn02').on("click", (e) => {
     e.preventDefault();
-    console.log("Click")
+    console.log("pre btn 02")
 })
 
 

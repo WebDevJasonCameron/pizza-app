@@ -5,7 +5,7 @@
         <a href="/" class="navbar-brand text-secondary">Pizza World</a>
         <ul class="navbar-nav me-auto">
             <li class="nav-item">
-                <a class="nav-link bg-dark bg-opacity-10 rounded-1" href="/pizza-order-form"> Build Your Own Pizza </a>
+                <a class="nav-link bg-dark bg-opacity-10 rounded-1" href="/pizza-order-form"> Build Your Own </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/menu">Menu</a>
