@@ -16,6 +16,21 @@ $('#nextFormBtn01').on("click", (e) => {
     console.log("Click")
 })
 
+$('#nextFormBtn02').on("click", (e) => {
+    e.preventDefault();
+    console.log("Click")
+})
+
+$('#previousFormBtn01').on("click", (e) => {
+    e.preventDefault();
+    console.log("Click")
+})
+
+$('#previousFormBtn02').on("click", (e) => {
+    e.preventDefault();
+    console.log("Click")
+})
+
 
 
 // FOOT

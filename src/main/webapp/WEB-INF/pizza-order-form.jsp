@@ -260,6 +260,12 @@
                                                     Check out&nbsp;&nbsp;
                                                     <i class="fa-solid fa-cart-shopping"></i>
                                         </button>
+                                        <button
+                                                class="btn btn-primary float-end rounded-0 rounded-left"
+                                                id="previousFormBtn02">
+                                            <i class="fa-solid fa-angle-left"></i>&nbsp;&nbsp;
+                                            Previous Step
+                                        </button>
                                     </div>
                                 </footer>
                             </div>
