@@ -11,12 +11,6 @@ $('#logoutBtn').on("click", (e) => {
 })
 
 // FORM
-// $('#nextFormBtn01').on("click", (e) => {
-//     e.preventDefault();
-//     document.location.replace("#cheeseAndSauce")
-//     console.log("Click")
-// })
-
 $('#nextFormBtn01').on("click", (e) => {
     e.preventDefault();
     $('#home-tab').removeClass('active');
@@ -25,21 +19,28 @@ $('#nextFormBtn01').on("click", (e) => {
     $('#cheeseAndSauce').addClass('active');
 });
 
-
-
 $('#nextFormBtn02').on("click", (e) => {
     e.preventDefault();
-    console.log("next btn 02")
+    $('#profile-tab').removeClass('active');
+    $('#messages-tab').addClass('active');
+    $('#cheeseAndSauce').removeClass('active');
+    $('#toppings').addClass('active');
 })
 
 $('#previousFormBtn01').on("click", (e) => {
     e.preventDefault();
-    console.log("pre btn 01")
+    $('#profile-tab').removeClass('active');
+    $('#home-tab').addClass('active');
+    $('#cheeseAndSauce').removeClass('active');
+    $('#sizeAndCrust').addClass('active');
 })
 
 $('#previousFormBtn02').on("click", (e) => {
     e.preventDefault();
-    console.log("pre btn 02")
+    $('#messages-tab').removeClass('active');
+    $('#profile-tab').addClass('active');
+    $('#toppings').removeClass('active');
+    $('#cheeseAndSauce').addClass('active');
 })
 
 
