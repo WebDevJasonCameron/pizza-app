@@ -15,8 +15,8 @@ Every project should have measurable, achievable goals.  As such, here are mine.
 - [] Selections from the Menu will be sent to a fake Order Payment (checkout) Page
 
 ## Action Plan
-### DB Inclusion
-1. Member DB
+### DB Table Inclusion
+1. Member
    - user_id [pk]
    - username     
    - password
@@ -29,13 +29,13 @@ Every project should have measurable, achievable goals.  As such, here are mine.
     - order_date
     - mp_orders
     - bop_orders
-3. Menu Pizzas (MP) DB 
+3. Menu Pizzas (MP) 
     - mp_id [pk]
     - name
     - price
     - description
     - img_url
-4. Build Own Pizzas (BOP) DB
+4. Build Own Pizzas (BOP) 
     - order_num [fk]
     - pizza_size
     - crust_type
