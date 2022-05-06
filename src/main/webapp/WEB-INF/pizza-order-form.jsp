@@ -45,25 +45,55 @@
                             <div class="card-body py-3 m-auto" style="min-width: 98vw;">
                                 <!--Hand Tossed Card-->
                                 <section class="card">
-                                    <div class="card-header bg-light p-3">
+                                    <div class="card-header bg-light p-3 h4">
                                         Hand Tossed
                                     </div>
                                     <div class="car-header p-xl-3">
                                         Garlic seasoned crust with a rich, buttery taste.
                                     </div>
                                     <div class="card d-inline p-3">
-                                        <input class="form-check-input" type="radio" name="size-crust" id="small-crust">
-                                        <label for="small-crust" class="form-check-label px-1">Small (10")</label>
+                                        <input
+                                                class="form-check-input"
+                                                type="radio"
+                                                name="size-crust"
+                                                id="ht-crust-small"
+                                                value="hand-toss-small">
+                                        <label for="ht-crust-small"
+                                               class="form-check-label px-1">
+                                                Small (10")
+                                        </label>
                                     </div>
                                     <div class="card d-inline p-3">
-                                        <input class="form-check-input" type="radio" name="size-crust" id="mid-crust">
-                                        <label for="small-crust" class="form-check-label px-1">Medium (12")</label>
+                                        <input
+                                                class="form-check-input"
+                                                type="radio"
+                                                name="size-crust"
+                                                id="ht-crust-mid"
+                                                value="hand-toss-mid">
+                                        <label
+                                                for="ht-crust-mid"
+                                                class="form-check-label px-1">
+                                                    Medium (12")
+                                        </label>
+                                    </div>
+                                    <div class="card d-inline p-3">
+                                        <input
+                                                class="form-check-input"
+                                                type="radio"
+                                                name="size-crust"
+                                                id="ht-crust-large"
+                                                value="hand-toss-large">
+                                        <label
+                                                for="ht-crust-large"
+                                                class="form-check-label px-1">
+                                                    Large (16")
+                                        </label>
                                     </div>
                                 </section>
 
                                 <!--Crispy Thin Card-->
                                 <section class="card mt-3">
-                                    <div class="card-header bg-light p-3">
+                                    <div class="card-header bg-light p-3 h4">
                                         Crispy Thin
                                     </div>
                                     <div class="car-header p-xl-3">
@@ -71,12 +101,43 @@
                                     </div>
 
                                     <div class="card d-inline p-3">
-                                        <input class="form-check-input" type="radio" name="size-crust" id="crispy-mid-crust">
-                                        <label for="mid-crust" class="form-check-label px-1">Medium (12")</label>
+                                        <input
+                                                class="form-check-input"
+                                                type="radio"
+                                                name="size-crust"
+                                                id="thin-small"
+                                                value="thin-small">
+                                        <label
+                                                for="thin-small"
+                                                class="form-check-label px-1">
+                                                    Small (10")
+                                        </label>
                                     </div>
                                     <div class="card d-inline p-3">
-                                        <input class="form-check-input" type="radio" name="size-crust" id="large-mid-crust">
-                                        <label for="large-mid-crust" class="form-check-label px-1">Large (14")</label>
+                                        <input
+                                                class="form-check-input"
+                                                type="radio"
+                                                name="size-crust"
+                                                id="thin-mid"
+                                                value="thin-mid">
+                                        <label
+                                                for="thin-mid"
+                                                class="form-check-label px-1">
+                                                    Medium (10")
+                                        </label>
+                                    </div>
+                                    <div class="card d-inline p-3">
+                                        <input
+                                                class="form-check-input"
+                                                type="radio"
+                                                name="size-crust"
+                                                id="thin-large"
+                                                value="thin-large">
+                                        <label
+                                                for="thin-large"
+                                                class="form-check-label px-1">
+                                            Large (14")
+                                        </label>
                                     </div>
                                 </section>
 

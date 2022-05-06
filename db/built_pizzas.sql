@@ -11,13 +11,16 @@ CREATE TABLE IF NOT EXISTS built_pizzas  (
     pizza_size VARCHAR(20) NOT NULL,
     crust_type VARCHAR(20) NOT NULL,
     cheese_amount VARCHAR(20),
+    sauce_type  VARCHAR(20),
     sauce_amount  VARCHAR(20),
-    phone VARCHAR(30),
+    topping_meat VARCHAR(20),
+    topping_veg VARCHAR(20),
     FOREIGN KEY (order_num) REFERENCES orders(order_num) On DELETE CASCADE
 );
 
 
-INSERT INTO built_pizzas (order_num, pizza_size, crust_type, cheese_amount, address, phone)
+INSERT INTO built_pizzas (order_num, pizza_size, crust_type, cheese_amount, sauce_type,
+                          sauce_amount, topping_meat, topping_veg)
 VALUES (1, 'nullString', 'nullString', 'nullString', 'nullString', 'nullString'),
        (2, 'jason', '1234', 'jason@gmail.com', 'street, city, tx, 12345', '123-456-7890'),
        (3, 'calvin', '1234', 'calvin@gmail.com', 'street, city, tx, 12345', '123-456-7890'),
